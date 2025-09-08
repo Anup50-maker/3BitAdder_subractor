@@ -9,12 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Our project works on the basis of the Full adder formulae,when we give inputs via signals A[0:3],B[0:3] the sum and carry out are generated using the formula :
+Sum=A^B^Cin
+Cout=(A&B)|(B&Cin)|(Cin&A)
 
-## How to test
 
-Explain how to use your project
+## How to Use
+
+Our project can be used in where Adders including addition upto 3 bits of binary numbers 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Our project includes usage of 4 leds which indicate the state of S[0:3]and Cout Signals from which output can be derived 

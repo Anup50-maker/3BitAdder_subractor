@@ -9,14 +9,17 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Our project works on the basis of the Full adder formulae,when we give inputs via signals A[0:3],B[0:3] the sum and carry out are generated using the formula :
+Our project works on the basis of the Full adder formulae,
+when we give inputs via signals A[0:3],B[0:3] the sum and carry out are generated using the formula :
 Sum=A^B^Cin
 Cout=(A&B)|(B&Cin)|(Cin&A)
+When the Cin value is changed to 1:
+Adder is transformed into Subractor the xor gate compute the two's  complement and add them 
 
 
 ## How to Use
 
-Our project can be used in where Adders including addition upto 3 bits of binary numbers 
+Our project can be used in where Adder_Subractors are used  including addition/subraction upto 3 bits of binary numbers 
 
 ## External hardware
 
